@@ -2,7 +2,7 @@
 /*
 
 # dont ignore anything related to the wordpress core
-
+!image-optimization-script/
 !public_html/
 public_html/*
 !public_html/wp-admin

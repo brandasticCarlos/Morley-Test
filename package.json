@@ -1,0 +1,28 @@
+{
+  "name": "brandastic_base",
+  "version": "1.0.0",
+  "description": "Brandastic Base",
+  "repository": "ssh://git@bitbucket.org:brandastic/brandastic-base.git",
+  "author": "Brandastic <info@brandastic.com>",
+  "license": "MIT",
+  "browserslist": "last 4 versions",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.18.11",
+    "gulp": "gulpjs/gulp.git#4.0",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-clean-css": "^3.4.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "node-sass": "^4.5.3",
+    "owl.carousel": "^2.2.0",
+    "uglify-es": "^3.0.20",
+    "yargs": "^10.1.1"
+  },
+  "dependencies": {}
+}

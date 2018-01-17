@@ -1,0 +1,6 @@
+[submodule "image-optimization"]
+	path = image-optimization
+	url = git@bitbucket.org:brandastic/image-optimization-script.git
+[submodule "public_html/wp-content/plugins/popup-lightbox"]
+	path = public_html/wp-content/plugins/popup-lightbox
+	url = git@bitbucket.org:brandastic/popup-lightbox-plugin.git
