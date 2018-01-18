@@ -13,3 +13,12 @@
 [submodule "public_html/wp-content/plugins/advanced-custom-fields-pro"]
 	path = public_html/wp-content/plugins/advanced-custom-fields-pro
 	url = git@bitbucket.org:brandastic/advanced-custom-fields-submodule.git
+[submodule "public_html/wp-content/plugins/wp-rocket"]
+	path = public_html/wp-content/plugins/wp-rocket
+	url = git@bitbucket.org:brandastic/wp-rocket-submodule.git
+[submodule "public_html/wp-content/plugins/wps-hide-login"]
+	path = public_html/wp-content/plugins/wps-hide-login
+	url = git@bitbucket.org:brandastic/wps-hide-login-submodule.git
+[submodule "public_html/wp-content/plugins/mailgun"]
+	path = public_html/wp-content/plugins/mailgun
+	url = https://github.com/mailgun/wordpress-plugin.git
