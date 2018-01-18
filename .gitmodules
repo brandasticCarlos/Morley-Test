@@ -7,3 +7,6 @@
 [submodule "public_html/wp-content/plugins/brandastic-slider"]
 	path = public_html/wp-content/plugins/brandastic-slider
 	url = git@bitbucket.org:brandastic/brandastic-slider.git
+[submodule "public_html/wp-content/plugins/woocommerce"]
+	path = public_html/wp-content/plugins/woocommerce
+	url = https://github.com/woocommerce/woocommerce.git
