@@ -10,3 +10,6 @@
 [submodule "public_html/wp-content/plugins/woocommerce"]
 	path = public_html/wp-content/plugins/woocommerce
 	url = https://github.com/woocommerce/woocommerce.git
+[submodule "public_html/wp-content/plugins/advanced-custom-fields-pro"]
+	path = public_html/wp-content/plugins/advanced-custom-fields-pro
+	url = git@bitbucket.org:brandastic/advanced-custom-fields-submodule.git
