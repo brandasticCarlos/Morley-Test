@@ -4,3 +4,6 @@
 [submodule "public_html/wp-content/plugins/popup-lightbox"]
 	path = public_html/wp-content/plugins/popup-lightbox
 	url = git@bitbucket.org:brandastic/popup-lightbox-plugin.git
+[submodule "public_html/wp-content/plugins/brandastic-slider"]
+	path = public_html/wp-content/plugins/brandastic-slider
+	url = git@bitbucket.org:brandastic/brandastic-slider.git
