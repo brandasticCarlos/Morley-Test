@@ -22,3 +22,9 @@
 [submodule "public_html/wp-content/plugins/mailgun"]
 	path = public_html/wp-content/plugins/mailgun
 	url = https://github.com/mailgun/wordpress-plugin.git
+[submodule "public_html/wp-content/plugins/yoast"]
+	path = public_html/wp-content/plugins/yoast
+	url = https://github.com/Yoast/wordpress-seo.git
+[submodule "public_html/wp-content/plugins/wp-migrate"]
+	path = public_html/wp-content/plugins/wp-migrate
+	url = git@bitbucket.org:brandastic/wp-migrate-db-submodule.git
