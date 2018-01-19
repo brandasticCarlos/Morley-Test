@@ -110,4 +110,5 @@ public_html/wp-content/advanced-cache.php
 public_html/wp-content/plugins/wp-rocket/cache.json
 
 #ignore plugin folder symlinks
+public_html/wp-content/plugins/wp-migrate-db-pro*
 
