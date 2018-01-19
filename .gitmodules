@@ -28,3 +28,7 @@
 [submodule "public_html/wp-content/plugins/wp-migrate-db-module"]
 	path = public_html/wp-content/plugins/wp-migrate-db-module
 	url = git@bitbucket.org:brandastic/wp-migrate-db-submodule.git
+[submodule "public_html/wp-content/plugins/gravity-forms-iframe"]
+	path = public_html/wp-content/plugins/gravity-forms-iframe
+	url = https://github.com/cedaro/gravity-forms-iframe.git
+	branch = master
