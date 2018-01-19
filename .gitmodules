@@ -32,3 +32,6 @@
 	path = public_html/wp-content/plugins/gravity-forms-iframe
 	url = https://github.com/cedaro/gravity-forms-iframe.git
 	branch = master
+[submodule "public_html/wp-content/plugins/brandastic-landing"]
+	path = public_html/wp-content/plugins/brandastic-landing
+	url = git@bitbucket.org:brandastic/brandastic-landing-v2.0.git
