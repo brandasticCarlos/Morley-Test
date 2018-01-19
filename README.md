@@ -1,29 +1,20 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+# After Forking Repo #
 
-### What is this repository for? ###
+## Create Folder Symlinks for Plugins ##
+We are using submodules for all of the plugins that we consistently use. Some of those 
+plugins are grouped together in one repo for better maintainability. Wordpress does not like
+plugins being inside other folders and will not detect them. Our workaround for that is to 
+create folders in the base plugins folder with symbolic links to the actual plugin code.
+The following plugins need to symlinks that live in the base plugins directory:
+wp-migrate-db-pro
+wp-migrate-db-pro-cli
+wp-migrate-db-pro-media-tools
+wp-migrate-db-pro-multisite-tools
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+How to create the symlinks example:
 
-### How do I get set up? ###
+Windows: mklink /D wp-migrate-db-pro-cli\ wp-migrate-db-module\wp-migrate-db-pro-cli\
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+Linux: ln -s wp-migrate-db-module\wp-migrate-db-pro-cli\ wp-migrate-db-pro-cli\ 
