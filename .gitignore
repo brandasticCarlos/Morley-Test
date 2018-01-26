@@ -109,6 +109,9 @@ node_modules/
 public_html/wp-content/advanced-cache.php
 public_html/wp-content/plugins/wp-rocket/cache.json
 
+#ignore migrate pro mu plugin files
+public_html/wp-content/mu-plugins/wp-migrate-db-pro*
+
 #ignore plugin folder symlinks
 public_html/wp-content/plugins/wp-migrate-db-pro*
 
