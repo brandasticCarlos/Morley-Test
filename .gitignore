@@ -108,6 +108,8 @@ node_modules/
 #ignore wp-rocket files
 public_html/wp-content/advanced-cache.php
 public_html/wp-content/plugins/wp-rocket/cache.json
+public_html/wp-content/cache/wp-rocket/index.html
+public_html/wp-content/wp-rocket-config
 
 #ignore migrate pro mu plugin files
 public_html/wp-content/mu-plugins/wp-migrate-db-pro*
