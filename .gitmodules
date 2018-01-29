@@ -24,7 +24,7 @@
 	url = https://github.com/mailgun/wordpress-plugin.git
 [submodule "public_html/wp-content/plugins/wordpress-seo"]
 	path = public_html/wp-content/plugins/wordpress-seo
-	url = https://github.com/Yoast/wordpress-seo.git
+	url = git@bitbucket.org:brandastic/yoast-seo.git
 [submodule "public_html/wp-content/plugins/wp-migrate-db-module"]
 	path = public_html/wp-content/plugins/wp-migrate-db-module
 	url = git@bitbucket.org:brandastic/wp-migrate-db-submodule.git
