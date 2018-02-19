@@ -38,3 +38,6 @@
 [submodule "public_html/wp-content/plugins/gravity-forms"]
 	path = public_html/wp-content/plugins/gravity-forms
 	url = git@bitbucket.org:brandastic/gravity-forms-submodule.git
+[submodule "public_html/wp-content/plugins/visualcomposer"]
+	path = public_html/wp-content/plugins/visualcomposer
+	url = git@bitbucket.org:brandastic/visual-composer.git
