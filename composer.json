@@ -1,0 +1,9 @@
+{
+  "name": "brandastic-base-build",
+  "description": "Brandastic Base Project Dependecies",
+  "type": "project",
+  "version": "1.0.0",
+  "require": {
+    "wp-cli/wp-cli": "^1.5"
+  }
+}

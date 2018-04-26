@@ -18,3 +18,15 @@ How to create the symlinks example:
 Windows: mklink /D wp-migrate-db-pro-cli\ wp-migrate-db-module\wp-migrate-db-pro-cli\
 
 Linux: ln -s wp-migrate-db-module\wp-migrate-db-pro-cli\ wp-migrate-db-pro-cli\ 
+
+# How Tos
+## Using WP CLI
+WP CLI is added to the basebuild via a Composer dependency, so that we do not need to rely on the
+server having this installed globally. In order to use the commands for WP CLI from the installation,
+in root directory you can run: 
+```vendor\wp-cli\wp-cli\bin\wp```
+
+## Running npm commands locally
+Using the same idea from WP CLI, to avoid depending on the server to have everything we need installed,
+we can run any npm local dependencies by doing(ex. gulp):
+```$(npm bin)/gulp build```

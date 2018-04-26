@@ -31,9 +31,12 @@ public_html/wp-content/uploads/**
 !src/
 !bower.json
 !gulpfile.babel.js
+!yarn.lock
 
 !package.json
 !gulp
+!composer.json
+!composer.lock
 
 # ignore all files starting with .
 .*
@@ -41,6 +44,7 @@ public_html/wp-content/uploads/**
 
 # track this file .gitignore (i.e. do NOT ignore it)
 !.gitignore
+!.gitmodules
 
 # track .editorconfig file (i.e. do NOT ignore it)
 !.editorconfig
@@ -102,8 +106,9 @@ public_html/wp-content/plugins/hello.php
 ## ignore specific themes
 #public_html/wp-content/themes/twenty*/
 
-# ignore node/grunt dependency directories
+# ignore node/grunt/composer dependency directories
 node_modules/
+vendor/
 
 #ignore wp-rocket files
 public_html/wp-content/advanced-cache.php
