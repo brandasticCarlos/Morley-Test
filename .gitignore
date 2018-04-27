@@ -5,9 +5,9 @@
 !image-optimization-script/
 !public_html/
 public_html/*
-!public_html/wp-admin
+public_html/wp-admin
 !public_html/wp-content/
-!public_html/wp-includes
+public_html/wp-includes
 !public_html
 public_html/wp-content/uploads/**
 !index.php
@@ -113,7 +113,7 @@ vendor/
 #ignore wp-rocket files
 public_html/wp-content/advanced-cache.php
 public_html/wp-content/plugins/wp-rocket/cache.json
-public_html/wp-content/cache/wp-rocket/index.html
+public_html/wp-content/cache/
 public_html/wp-content/wp-rocket-config
 
 #ignore migrate pro mu plugin files
