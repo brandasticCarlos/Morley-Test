@@ -1,4 +1,4 @@
-# ignore everything in the root except the "wp-content" directory.
+# ignore everything in the root
 /*
 
 # dont ignore anything related to the wordpress core
@@ -26,6 +26,7 @@ public_html/wp-content/uploads/**
 !wp-signup.php
 !wp-trackback.php
 !xmlrpc.php
+!upgrades
 
 
 !src/
