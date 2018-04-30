@@ -1,6 +1,17 @@
 # README #
 
-# After Forking Repo #
+# Getting Started #
+1. Form Repo
+2. Create Folder Symlinks for Plugins
+3. Install All Dependencies
+4. Remove Unused Submodules (Optional)
+
+After that you are ready to run gulp or gulp build and start working on the repo.
+
+## Fork Repo
+* The idea behind using the base build is to create a new repo by forking this repo. The fork will create
+a new repo and copy this base build repo into that repo, so that you can have a fresh copy
+to modify as needed. 
 
 ## Create Folder Symlinks for Plugins ##
 We are using submodules for all of the plugins that we consistently use. Some of those 
@@ -15,9 +26,18 @@ wp-migrate-db-pro-multisite-tools
 
 How to create the symlinks example:
 
-Windows: mklink /D wp-migrate-db-pro-cli\ wp-migrate-db-module\wp-migrate-db-pro-cli\
+Windows: ```mklink /D wp-migrate-db-pro-cli\ wp-migrate-db-module\wp-migrate-db-pro-cli\```
 
-Linux: ln -s wp-migrate-db-module\wp-migrate-db-pro-cli\ wp-migrate-db-pro-cli\ 
+Linux: ```ln -s wp-migrate-db-module\wp-migrate-db-pro-cli\ wp-migrate-db-pro-cli\``` 
+
+## Install All Dependencies ##
+The base build has both npm and composer dependencies so you will need to install those, run
+
+```yarn install```
+
+```composer install```
+
+At this point if nothing breaks then you should have all the dependencies for our workflow.
 
 # How Tos
 ## Using WP CLI
@@ -61,3 +81,6 @@ updated the constant again, then nothing will run.
 IMPORTANT NOTE: In order for this process to work. The transient value needs to be initially defined in the database
 (either manually, or using WP CLI, or whatever preferred method of choice), and ideally that value
 should be set to ```0.0``` so that we can use versioning properly.
+ex. 
+
+```vendor/wp-cli/wp-cli/bin/wp transient set upgrade_script_version 0.0 --path=public_html```
