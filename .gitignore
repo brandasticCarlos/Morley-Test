@@ -98,8 +98,8 @@ Thumbs.db
 !public_html/wp-content/plugins/
 !public_html/wp-content/themes/
 
-public_html/wp-content/themes/kleo-child/assets/js
-public_html/wp-content/themes/kleo-child/assets/css
+public_html/wp-content/themes/brandastic/assets/js
+public_html/wp-content/themes/brandastic/assets/css
 
 # ignore these plugins
 public_html/wp-content/plugins/hello.php
