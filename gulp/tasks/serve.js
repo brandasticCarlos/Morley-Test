@@ -13,7 +13,7 @@ gulp.task('serve',
             proxy: config.devUrl,
             https: {
                 key: '/private/etc/apache2/ssl/dev.localhost.key',
-                cert: 'private/etc/apache2/ssl/dev.localhost.crt'
+                cert: '/private/etc/apache2/ssl/dev.localhost.crt'
             },
             snippetOptions: {
                 whitelist: ['/wp-admin/admin-ajax.php'],
