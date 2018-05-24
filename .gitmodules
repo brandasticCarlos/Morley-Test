@@ -35,9 +35,9 @@
 [submodule "public_html/wp-content/plugins/brandastic-landing"]
 	path = public_html/wp-content/plugins/brandastic-landing
 	url = git@bitbucket.org:brandastic/brandastic-landing-v2.0.git
-[submodule "public_html/wp-content/plugins/gravityforms"]
-	path = public_html/wp-content/plugins/gravityforms
-	url = git@bitbucket.org:brandastic/gravity-forms-submodule.git
 [submodule "public_html/wp-content/plugins/js_composer"]
 	path = public_html/wp-content/plugins/js_composer
 	url = git@bitbucket.org:brandastic/wpbakery-page-builder.git
+[submodule "public_html/wp-content/plugins/gravityforms"]
+	path = public_html/wp-content/plugins/gravityforms
+	url = git@bitbucket.org:brandastic/gravity-forms-submodule.git
