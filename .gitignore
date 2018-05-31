@@ -109,7 +109,7 @@ public_html/wp-content/plugins/hello.php
 
 # ignore node/grunt/composer dependency directories
 node_modules/
-vendor/
+/vendor/
 
 #ignore wp-rocket files
 public_html/wp-content/advanced-cache.php
