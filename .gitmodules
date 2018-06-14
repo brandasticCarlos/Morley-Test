@@ -41,3 +41,6 @@
 [submodule "public_html/wp-content/plugins/gravityforms"]
 	path = public_html/wp-content/plugins/gravityforms
 	url = git@bitbucket.org:brandastic/gravity-forms-submodule.git
+[submodule "log-rotate"]
+	path = log-rotate
+	url = git@bitbucket.org:brandastic/log-rotate-mail-script.git
